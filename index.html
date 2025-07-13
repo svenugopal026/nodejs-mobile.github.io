@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Report Generator Tool</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h2>Report Generator</h2>
+
+  <div class="form-section">
+    <input type="text" id="sectionTitle" placeholder="Section Title">
+    <textarea id="sectionContent" placeholder="Section Content"></textarea>
+    <input type="file" id="imageUpload" multiple accept="image/*">
+    <button onclick="addSection()">Add Section</button>
+  </div>
+
+  <div id="reportPreview"></div>
+
+  <div class="actions">
+    <button onclick="downloadWord()">Download as Word</button>
+    <button onclick="downloadPDF()">Download as PDF</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
