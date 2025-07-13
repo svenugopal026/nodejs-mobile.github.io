@@ -1,0 +1,66 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+h2 {
+  text-align: center;
+  color: #444;
+}
+
+.form-section {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 600px;
+  margin: auto;
+}
+
+input, textarea {
+  padding: 10px;
+  font-size: 16px;
+  width: 100%;
+}
+
+button {
+  padding: 10px;
+  font-size: 16px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+#reportPreview {
+  margin: 20px auto;
+  max-width: 600px;
+  border-top: 1px solid #ccc;
+  padding-top: 20px;
+}
+
+.section {
+  margin-bottom: 20px;
+  padding: 10px;
+  background: #f9f9f9;
+  border-left: 4px solid #4CAF50;
+}
+
+.section h3 {
+  margin-top: 0;
+  font-size: 12pt;
+}
+
+.section p {
+  font-size: 10pt;
+}
+
+.section img {
+  max-width: 300px;
+  display: block;
+  margin: 10px auto;
+}
+
+.actions {
+  text-align: center;
+  margin-top: 30px;
+}
